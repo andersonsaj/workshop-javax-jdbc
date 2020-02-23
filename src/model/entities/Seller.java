@@ -9,7 +9,8 @@ public class Seller implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
-	private String name,email;
+	private String email;
+	private String name;
 	private Double baseSalary;
 	private Date birthDate;
 	
